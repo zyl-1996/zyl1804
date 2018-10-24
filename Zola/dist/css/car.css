@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/*公共样式*/
+html, body, ul, ol, li, dl, dd, dt, p, a, img, div, span {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: none;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+em, i {
+  font-style: normal; }
+
+strong, b, h1 {
+  font-weight: normal; }
+
+a {
+  text-decoration: none; }
+
+html, body {
+  height: 100%;
+  margin: 0 auto; }
+
+body {
+  background-color: #fff; }
+
+/*top*/
+.top {
+  height: 29px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 12px;
+  line-height: 29px; }
+
+.top-left {
+  float: left;
+  margin-left: 20px; }
+
+.top-left span:nth-child(1) a {
+  color: #666; }
+
+.top-left span:nth-child(2) {
+  color: #666; }
+
+.top-left span:nth-child(2) a {
+  color: #36c; }
+
+.top-left span:nth-child(3) a {
+  color: #36c; }
+
+.top-left span:nth-child(2) {
+  margin-left: 21px; }
+
+.top-left span:nth-child(3) {
+  margin-left: 23px; }
+
+.top-right {
+  float: right;
+  margin-right: 43px; }
+
+.top-right li {
+  float: left;
+  margin: 0 20px; }
+
+.top-right li a {
+  color: #666; }
+
+/*goods*/
+.goods {
+  width: 960px;
+  margin-left: 150px; }
+
+.goods .list li {
+  width: 958px;
+  height: 128px;
+  border: 1px solid #e3e3e3; }
+
+.goods .list li img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #e3e3e3;
+  margin: 10px 10px 0 10px; }
+
+.goods .list li > div {
+  float: left; }
+
+.goods .list .form {
+  width: 240px;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px; }
+
+.goods .list .price {
+  width: 180px;
+  height: 100%;
+  font-size: 12px;
+  line-height: 128px;
+  text-align: center; }
+
+.goods .list .number {
+  width: 140px;
+  height: 100%; }
+
+.goods .list .jisuan {
+  width: 90px;
+  height: 35px;
+  border: 1px solid #e3e3e3;
+  margin: 45px 0 0 25px; }
+
+.goods .list .jisuan div {
+  float: left;
+  width: 30px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center; }
+
+.goods .list .jisuan .jia {
+  border-right: 1px solid #e3e3e3; }
+
+.goods .list .jisuan .jian {
+  border-left: 1px solid #e3e3e3; }
+
+.goods .list .jisuan .shu {
+  width: 28px; }
+
+.xiaoji {
+  width: 130px;
+  height: 100%;
+  line-height: 128px;
+  text-align: center; }
+
+.delete {
+  margin: 50px 0 0 45px; }
+
+.title {
+  border-top: 2px solid #e02d2d;
+  width: 960px;
+  height: 34px;
+  background-color: #f5f5f5;
+  margin-left: 150px;
+  margin-top: 50px; }
+
+.title span:nth-child(1) {
+  font-size: 12px;
+  margin-left: 154px; }
+
+.title span:nth-child(2) {
+  font-size: 12px;
+  margin-left: 250px; }
+
+.title span:nth-child(3) {
+  font-size: 12px;
+  margin-left: 120px; }
+
+.title span:nth-child(4) {
+  font-size: 12px;
+  margin-left: 110px; }
+
+.title span:nth-child(5) {
+  font-size: 12px;
+  margin-left: 106px; }
+
+.total {
+  width: 360px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 600px; }
